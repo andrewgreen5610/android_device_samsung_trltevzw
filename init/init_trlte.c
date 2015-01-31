@@ -56,7 +56,7 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (strstr(bootloader, "N910V")) {
         /* trltevzw */
         property_set("ro.build.fingerprint", "samsung/trltevzw/trltevzw:4.4.4/KTU84P/N910VVRU1ANJ5:user/release-keys");
-        property_set("ro.build.description", "trltevzw-user 4.4.4 KTU84P N910VVRU1ANJ5 release-keys");
+        property_set("ro.build.description", "trltevzw-user 5.0.2 LRX22G N910VVRU1ANJ5 release-keys");
         property_set("ro.product.model", "SM-N910V");
         property_set("ro.product.device", "trltevzw");
         cdma_properties("0", "311480", "Verizon");
